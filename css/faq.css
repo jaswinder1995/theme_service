@@ -1,0 +1,130 @@
+*body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header-bar{
+    background-color:  #011a48;
+    height: 50px;
+     }
+.faq li{
+        list-style: none;
+        display: inline-block;
+        padding: 25px 5px;
+        color: rgb(255, 255, 255);
+    }
+    .logos{
+        margin-top: 15px;
+         float:right;
+         width: 120px;
+         color: white;
+         display: flex;
+         justify-content:space-evenly;
+     }
+     #menu{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float:right;
+        
+    }
+    #menu li{
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        padding: 25px 15px;
+    }      
+    .nav-img{
+        width: 100px;
+      
+    }  
+    /* finish */
+    .accordion{
+        padding-top: 100px!important;
+         }
+         .accordion-button::after {
+           
+           display:none!important;
+          }
+           button.accordion-button{
+               /* background: transparent; */
+             background-color:#EBF5FB  ;
+               border-radius: 0;
+               color: #031fb9ce; 
+                font-size:15px;
+               border: 1px solid gainsboro; 
+               font-weight: 700;
+               
+               }
+           button.accordion-button:focus{
+              
+               background-color: rgb(192, 214, 219);
+                   border-radius: 3px;
+                   outline: none !important;
+                   border-top: 1px solid   gainsboro ;
+                   border-bottom: 4px solid #0812a1;
+                   box-shadow: none;
+                   color:#031fb9ce; 
+                   font-size:15px ;
+                   font-weight: 700;  
+                      
+                   }  
+          
+         
+ /* footerpart      */
+.fotpart1-head{
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-top:20px;
+    
+}   
+.fotpart2-head{
+margin-top: 30px;
+}  
+
+.contact li{
+    list-style: none;  
+}
+.contact li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 2px;
+}
+
+.footer li {
+list-style: none;
+padding: 0;
+margin-top: 10px;
+
+} 
+.footer li a{
+    text-decoration: none;
+    color: black;
+   }
+.phn-field{
+    width: 200px;
+    height: 40px;
+    border:none;
+background-color: #E1E6E9 ;
+}
+.tele-filed{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    border:none;
+    background-color:  #011a48;
+    color: white;
+}
+.social-contact{
+    margin-top: 20px;
+}
+.social-contact a {
+
+   color: #011a48;
+  font-size: 20px;
+ 
+}
+.phn-field:focus{
+    outline:none;
+}
